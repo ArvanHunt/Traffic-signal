@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const timerElement = document.getElementById('timer');
     let currentIndex = 0;
     const cycle = [
-        { color: 'red', duration: 10000 },
+        { color: 'red', duration: 5000 },
         { color: 'yellow', duration: 2000 },
-        { color: 'green', duration: 10000 }
+        { color: 'green', duration: 5000 }
     ];
 
     function updateLights() {
